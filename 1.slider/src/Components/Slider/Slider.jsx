@@ -5,7 +5,7 @@ function Slider() {
     return (
         <>
 
-            =<p className="index-info">3 / 5</p>
+            <p className="index-info">3 / 5</p>
             <div className="slider">
                 <p className="image-info">image info</p>
                 <img src="/images/img-3.jpg" alt="" className="slider-img" />

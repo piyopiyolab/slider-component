@@ -67,5 +67,20 @@ font-weight: 400;
 }
 
 .next-button {
-    right:0;
+    right:-6.5rem;
+}
+.prev-button {
+    left:-6.5rem;
+}
+
+@media(max-width:850px) {
+
+    .index-info {
+        font-size: 1.6rem;
+    }
+
+    .slider {
+        max-width: 70%;
+    }
+
 }

@@ -1,10 +1,11 @@
 import Slider from "../Slider/Slider"
+import sliderData from '../../data/sliderData'
 
 function App() {
 
   return (
     <>
-      <Slider />
+      <Slider sliderData={sliderData} />
     </>
   )
 }

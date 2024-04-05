@@ -16,6 +16,20 @@
 
 }
 
+.img-info {
+    position: absolute;
+    z-index: 1;
+    bottom:0;
+    left: 43%;
+    color:#111;
+background-color: #f1f1f1;
+border-bottom: .1rem solid #9f9f9f;
+border-left: .1rem solid #9f9f9f;
+padding: .8rem 1.2rem;
+font-weight: 400;
+}
+
+
 .slider-img {
     position:absolute;
     width:100%;
@@ -24,5 +38,34 @@
 }
 
 .navigation-button {
-    display: none;
+    position: absolute;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: transparent;
+    border-radius:50%;
+    border:1px solid #eee;
+    padding: 1rem .5rem;
+    transition: all 200ms;
+    opacity: .5;
+
+}
+.navigation-button:hover {
+    background-color: #828285;
+    opacity: 1;
+
+}
+.navigation-button > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.prev-button, .next-button {
+    position: absolute;
+    bottom: 37%;
+}
+
+.next-button {
+    right:0;
 }
